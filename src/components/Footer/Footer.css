@@ -1,0 +1,161 @@
+.main-footer {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.main-footer ul {
+  list-style: none;
+  text-align: left;
+    padding: 0px;
+}
+
+.main-footer h1 {
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 10px;
+  font-weight: 600;
+  margin: 0px;
+  text-align: left;
+}
+
+.main-footer h2 {
+  color: #000000;
+  font-weight: 500;
+}
+
+.main-footer ul li a {
+  color: #000000cc;
+  text-decoration:none;
+}
+#footer{
+  width: 1200px;
+  margin: 0 auto;
+}
+.copyright{
+  width: 100%;
+  background: rgb(161,207,59);
+  background: linear-gradient(90deg, rgba(161,207,59,1) 0%, rgba(105,132,39,1) 81%);
+}
+.copyright>p{
+  color: white;
+  margin: 0px;
+  font-size: 16px;
+}
+footer {
+  background-color: #ffffff;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer-sub{
+  font-size: 38px;
+  margin: 0px;
+  text-align: left;
+  font-weight: 800;
+  margin: 0px;
+  line-height: 40px;
+}
+.logoinfo p {
+  color: #6EB981;
+  font-size: 20px;
+  margin: 0px;
+  text-align: left;
+}
+
+.contact-details {
+  margin-top: 20px;
+}
+
+.contact-details li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contact-details li a {
+  text-decoration:none;
+  color: #000000;
+}
+
+.contact-details .fa {
+  color: #000000;
+  margin-right: 10px;
+}
+
+.sociallogos{
+  padding:20px 0;
+}
+
+.sociallogos .logobox a{
+  padding:0 10px;
+  text-decoration:none;
+  color:#ffffff;
+  font-size:22px;
+}
+
+.com ul li{
+  padding:5px 0;
+}
+@media only screen and (max-width: 1200px) {
+  #footer {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+}
+@media only screen and (max-width: 749px) {
+  #footer {
+    width: 100%;
+    margin: 0 auto;
+}
+  .main-footer {
+    padding:20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+    .info{
+      padding:20px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-footer {
+    grid-template-columns: 1fr;
+  }
+  .sociallogos{
+    padding:20px 0;
+  }
+  .com{
+    padding:10px 0;
+  } 
+  .logoinfo{
+    margin-bottom: 20px;
+  }
+  .footer-sub{
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .main-footer h1 {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin: 0px;
+    text-align: left;
+}
+.main-footer ul li a {
+  color: #000000cc;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+}

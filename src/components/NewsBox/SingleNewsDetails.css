@@ -1,0 +1,38 @@
+.single-news-cetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.image-details{
+    width: 80%;
+}
+.btn-back{
+    margin-top: 50px;
+    padding: 12px 50px;
+        width: auto;
+        background: #96be3a;
+        border: none;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 5px;
+        transition: 0.2s ease all;
+        font-size: 20px;
+}
+@media screen and (max-width: 769px){
+    .image-details {
+        width: 100%;
+    }
+    .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+}

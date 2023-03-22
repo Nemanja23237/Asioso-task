@@ -1,0 +1,103 @@
+.focus{
+  margin-top: 90px;
+}
+
+.focus-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+  row-gap: 25px;
+}
+.box-content {
+  width: 350px;
+  background-color: rgb(200, 201, 200);
+  padding:35px 20px;
+  border-radius: 10px;
+}
+.box-content-1{
+background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../../assets/standard.png');
+background-size: cover;
+
+}
+.box-content-2{
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../../assets/SaaS.png');
+  background-size: cover;
+  }
+  .box-content-3{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../../assets/older.png');
+    background-size: cover;
+    }
+.box-content>h3{
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+}
+.box-content>p{
+  color: white;
+  margin: 0;
+}
+
+.btn-read {
+  background: #ffffff;
+  color: #93bd32;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 25px 10px 10px;
+  position: relative;
+  text-decoration: none;
+  margin-top: 30px;
+  border: none;
+  font-size: 18px;
+
+}
+
+.btn-read:before, .btn-read:after {
+  border-right: 2px solid;
+  content: '';
+  display: block;
+  height: 8px;
+  margin-top: -6px;
+  position: absolute;
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  right: 10px;
+  top: 50%;
+  width: 0;
+}
+
+.btn-read:after {
+  margin-top: -1px;
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.btn-read:hover, .btn-read:focus,
+.btn-read:hover:before, .btn-read:hover:after,
+.btn-read:focus:before, .btn-read:focus:after {
+  color: #ffffff;
+  background: #93bd32;
+}
+@media screen and (max-width: 769px){
+  .focus {
+    margin-top: 40px;
+}
+.focus-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  row-gap: 20px;
+}
+.box-content {
+  width: 300px;
+  
+}
+}

@@ -1,0 +1,35 @@
+.about-box{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.about-box>h2,.about-box>p{
+    text-align: center;
+}
+.box-about{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: -100px;
+}
+@media screen and (max-width: 769px) {
+    .about-box {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 30px;
+        padding: 0px 10px;
+    }
+    .about-box>p {
+        text-align: left;
+    }
+    .box-about {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+    .box-about>img{
+        width: 100%;
+    }
+}
